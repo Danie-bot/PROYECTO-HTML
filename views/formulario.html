@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>  
+    <!--EN esta parte pondremos nuestro enlace de estilos y biblioteca-->
+    <link rel="stylesheet"    href="../css/estilos.css">  
+    <link rel="stylesheet"    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+
+<body>
+
+    <!--Nuestro menu hamburguesa junto con nuestros botones de enlace entre paginas-->
+    <!--Este menu lo repetiremos en todas las paginas-->
+    <nav>
+            
+        <label for="menu-toggle">
+
+            <svg  class="botom" xmlns="http://www.w3.org/2000/svg" fill="currentColor"  viewBox="0 0 16 16">  
+                <path  fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+            </svg>
+
+        </label>
+    
+        <input type="checkbox" id="menu-toggle">
+
+            
+        <ul id="menu">
+            
+            <li> <a href="../index.html">          Inicio        </a>     </li>
+            <li> <a href="../views/Galeria.html">  Portafolio    </a>     </li>
+            <li> <a href="#" id="selected">        Presupuesto   </a>     </li>
+            <li> <a href="../views/contacto.html"> Contacto      </a>     </li>
+        
+        </ul>
+        <img src="../imagenes/nissan.jpg"  alt="logotipo" class="logo" width="211" height="180">
+    </nav>
+
+
+    <!--desarrollo del formulario-->
+     
+    
+    <form>
+
+        <h2>Contacto</h2>
+
+        <div class="input-group">
+            
+            <input type="checkbox" required>Politica de privacidad
+            
+            <p>Nombre*    <input type="text" name="name"  placeholder="Nombre"   required></p>
+            <p>Telefono*  <input type="tel"  name="phone" placeholder="Telefono" required></p>
+            <p>Email*     <input type="email"name="email" placeholder="Email"    required></p>
+
+            <textarea name="message"  cols="30" rows="5"  placeholder="Solicite mas informacion"></textarea>
+
+            <input class="btn" type="submit" value="enviar">
+            
+        </div>
+
+    </form>
+
+
+    <!--Este sera nuestro footer que se repetira en todas las paginas-->
+  
+    <footer class="container">
+     
+        <div class="container">
+    
+            <div class="footer-row">
+    
+                <div class="footer-links"   >
+    
+                    <h4>Contactanos</h4>
+                    <ul>
+    
+                       <li> <a href="#" >Direccion: Calle la Enrramada Nº23 </a>  </li>
+                       <li> <a href="#" >Aviso legal                        </a>  </li>
+                       
+                    </ul>
+    
+                </div>
+
+                <div class="footer-links">
+    
+                    <h4>ayuda</h4>
+                    <ul>
+    
+                       <li> <a href="#" >preguntas               </a>  </li>
+                       <li> <a href="#" >experiencia de usuario  </a>  </li>
+        
+                    </ul>
+    
+                </div>
+    
+               
+                <div class="footer-links">
+
+                    <h4>Siguenos</h4>
+
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/NissanESP/">                       <i class="fab fa-facebook-f"> </i></a>
+                        <a href="https://www.instagram.com/nissan/">                         <i class="fab fa-instagram">  </i></a>
+                        <a href="https://x.com/NissanMotor/status/1435875628163665921">      <i class="fab fa-twitter">    </i></a>
+                        <a href="https://www.linkedin.com/company/nissan-motor-corporation"> <i class="fab fa-linkedin">   </i></a>
+                    </div>
+        
+                </div>
+    
+            </div>
+    
+        </div>
+    
+    </footer>
+
+</body>
+
+
+</html>
+
+
+
+               
